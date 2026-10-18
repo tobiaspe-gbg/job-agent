@@ -1,0 +1,63 @@
+roles:
+  - name: automotive assembly operator
+    synonyms:
+      - monteringsoperatör
+      - monterare
+      - assembly operator
+      - bilmontage
+      - fordonsmontör
+      - automotive assembly
+      - produktionsmontör
+
+  - name: breakfast or bar hostess
+    synonyms:
+      - frukostvärdinna
+      - frukostvärd
+      - barvärdinna
+      - bartender
+      - barpersonal
+      - breakfast hostess
+      - breakfast host
+      - hostess
+
+  - name: event staff
+    synonyms:
+      - eventpersonal
+      - eventvärd
+      - eventvärdinna
+      - evenemangspersonal
+      - event staff
+      - event assistant
+      - mässvärd
+
+  - name: house-keeping staff
+    synonyms:
+      - städare
+      - hotellstädare
+      - housekeeping
+      - rumstädning
+      - lokalvårdare
+      - städpersonal
+      - housekeeper
+
+  - name: front-desk at hotels or bars
+    synonyms:
+      - receptionist
+      - hotellreceptionist
+      - front desk
+      - front-desk
+      - reception
+      - hotellreception
+      - barreception
+
+  - name: waiting staff at restaurants
+    synonyms:
+      - servitör
+      - servitris
+      - kellner
+      - waiter
+      - waitress
+      - waiting staff
+      - restaurangpersonal
+      - serveringspersonal
+      - hovmästare

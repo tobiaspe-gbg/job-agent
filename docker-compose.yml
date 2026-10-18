@@ -1,0 +1,10 @@
+services:
+  job-agent:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./outbox:/app/outbox
+      - ./CV:/app/CV:ro
+      - ./roles.yaml:/app/roles.yaml:ro

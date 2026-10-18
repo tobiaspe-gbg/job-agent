@@ -1,0 +1,30 @@
+[project]
+name = "job-agent"
+version = "0.1.0"
+description = "Swedish job finder agent (Arbetsförmedlingen + Blocket Jobb)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.50.0",
+    "httpx>=0.28.0",
+    "playwright>=1.50.0",
+    "pypdf>=5.0.0",
+    "pyyaml>=6.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-playwright>=0.6.0",
+]
+
+[project.scripts]
+job-agent = "job_agent.run:main"
+
+[build-system]
+requires = ["uv_build>=0.11.26,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
